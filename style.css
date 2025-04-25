@@ -1,0 +1,131 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+  }
+  
+  /* Navigation Bar */
+  header {
+    background-color: #2c3e50;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  .navbar {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+  }
+  .navbar .logo {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .nav-links a:hover {
+    color: #1abc9c;
+  }
+  
+  /* Sections */
+  .section {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: auto;
+  }
+  .section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .section p {
+    max-width: 700px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Home Section */
+  .home-section {
+    background: #1abc9c;
+    color: white;
+    text-align: center;
+    padding: 6rem 2rem;
+  }
+  .home-section h1 {
+    font-size: 2.5rem;
+  }
+  .home-section p {
+    font-size: 1.2rem;
+  }
+  
+  /* Services Section */
+  .service-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  .service-box {
+    flex: 1 1 250px;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  .service-box h3 {
+    color: #1abc9c;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Contact Form */
+  .contact-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 500px;
+  }
+  .contact-section input,
+  .contact-section textarea {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  .contact-section button {
+    background-color: #1abc9c;
+    color: white;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  .contact-section button:hover {
+    background-color: #16a085;
+  }
+  
+  /* Footer */
+  footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
